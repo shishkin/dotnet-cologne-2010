@@ -28,6 +28,7 @@ namespace SimpleService
                     typeof(EchoService),
                     new WSHttpBinding(),
                     "ws");
+                host.AddDefaultEndpoints();
                 host.Open();
 
                 foreach (var endpoint in host.Description.Endpoints)
