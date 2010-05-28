@@ -25,10 +25,6 @@ namespace SimpleService
                 typeof(EchoService),
                 new Uri("http://localhost:8081/Echo")))
             {
-                host.AddServiceEndpoint(
-                    typeof(EchoService),
-                    new WSHttpBinding(),
-                    "ws");
                 host.AddServiceEndpoint(new UdpDiscoveryEndpoint());
                 host.AddDefaultEndpoints();
                 host.Open();

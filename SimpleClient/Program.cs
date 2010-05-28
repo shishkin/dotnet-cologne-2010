@@ -29,6 +29,14 @@ namespace SimpleClient
             {
                 Console.WriteLine("{0}", endpoint.Address);
             }
+
+            var channelFactory =
+                new ChannelFactory<EchoService>(
+                    new BasicHttpBinding(),
+                    service.Endpoints.FirstOrDefault().Address);
+            var response = channelFactory.CreateChannel().Echo("hello!");
+            Console.WriteLine(response);
+
         }
     }
 }
