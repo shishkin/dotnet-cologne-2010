@@ -9,7 +9,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg3:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Receive x:Name="__ReferenceID0" DisplayName="ReceiveRequest" sap:VirtualizedContainerService.HintSize="255,90" OperationName="Hello" ServiceContractName="p:IService">
+    <Receive x:Name="__ReferenceID0" CanCreateInstance="True" DisplayName="ReceiveRequest" sap:VirtualizedContainerService.HintSize="255,90" OperationName="Hello" ServiceContractName="p:IService">
       <Receive.CorrelationInitializers>
         <RequestReplyCorrelationInitializer CorrelationHandle="[handle]" />
       </Receive.CorrelationInitializers>
