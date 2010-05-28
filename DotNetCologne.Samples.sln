@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleService", "SimpleServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebService", "AspNetWebService\AspNetWebService.csproj", "{F7862B86-8635-4435-94E2-90D60A90D548}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClient", "SimpleClient\SimpleClient.csproj", "{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{F7862B86-8635-4435-94E2-90D60A90D548}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F7862B86-8635-4435-94E2-90D60A90D548}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F7862B86-8635-4435-94E2-90D60A90D548}.Release|x86.ActiveCfg = Release|Any CPU
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Debug|x86.ActiveCfg = Debug|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Debug|x86.Build.0 = Debug|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Release|Any CPU.ActiveCfg = Release|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Release|x86.ActiveCfg = Release|x86
+		{3ECC3979-4AF5-43F5-8BB8-9C2F83DFA4B4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
